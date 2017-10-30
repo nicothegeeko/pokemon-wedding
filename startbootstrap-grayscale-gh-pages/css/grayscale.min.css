@@ -133,9 +133,13 @@ a:hover {
 }
 .masthead .intro-body .brand-heading {
 	font-size: 50px;
+  background-color: rgba(255, 230, 242, 0.6);
+  color: #000;
 }
 .masthead .intro-body .intro-text {
 	font-size: 18px;
+  background-color: rgba(255, 230, 242, 0.6);
+  color: #000;
 }
 @media (min-width: 768px) {
 	.masthead {
@@ -144,6 +148,7 @@ a:hover {
 	}
 	.masthead .intro-body .brand-heading {
 		font-size: 100px;
+    color: #000;
 	}
 	.masthead .intro-body .intro-text {
 		font-size: 22px;
