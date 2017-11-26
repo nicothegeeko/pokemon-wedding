@@ -32,6 +32,11 @@ p {
 	line-height: 1.5;
 	margin: 0 0 25px;
 }
+
+.rsvp {
+	background-color: #79e7e0;
+	padding: 20px 0;
+}
 @media (min-width: 768px) {
 	p {
 		font-size: 18px;
@@ -174,17 +179,30 @@ a:hover {
 	outline: 0;
 	background: rgba(255, 255, 255, 0.1);
 }
+.content-section-1 {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: #000;
+}
+
+.story {
+	background-color: (#82a43a);
+}
+
 .content-section {
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
+
 .download-section {
-	color: #fff;
-	background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+	color: #000;
+
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	background-size: cover;
+	background: url(../img/the-chups.jpg) no-repeat center center scroll;
 	background-size: cover;
 }
 #map {
@@ -210,8 +228,8 @@ a:hover {
 	border-radius: 0;
 }
 .btn-default {
-	color: #42dca3;
-	border: 1px solid #42dca3;
+	color: #f785ad;
+	border: 1px solid #f785ad;
 	background-color: transparent;
 }
 .btn-default:focus,
